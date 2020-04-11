@@ -1,0 +1,88 @@
+form{
+    width: 25%;
+    border: 1px solid #ccc;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+}
+
+label{
+    font-size: 14px;
+    display: block;
+    width: 100%;
+    margin-bottom: 3px;
+}
+
+input[type=text]{
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 5px;
+    font-size: 14px;
+}
+
+input[type=submit]{
+    width: 100%;
+    padding: 5px;
+    background-color: blue;
+    color: #ffff;
+}
+
+input[type=submit]:hover{
+    background-color: rgb(54, 54, 185);
+    color: #ffff;
+    cursor:pointer;
+}
+
+a{
+    text-decoration: none;
+    background-color: rgb(25, 165, 201);
+    color: #fff;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.botones{
+    margin-top: 10px;;
+    text-align: center;
+}
+
+a:hover{
+    background-color: rgb(64, 187, 218);
+    color: #fff;
+}
+
+table{
+    width: 50%;
+    border:1px solid #ccc;
+    margin: auto;
+    padding: 5px;
+    border-collapse: collapse;
+}
+
+table tr td{
+    padding: 15px;
+}
+
+table tr:hover{
+    background-color: aqua;
+}
+
+table tr td:hover{
+    background-color: rgb(69, 182, 182);
+    cursor: pointer;
+}
+
+table tr th{
+    background-color: rgb(69, 182, 182);
+}
+
+table tr td a{
+    background-color: rgb(64, 19, 138);
+    display: block;
+
+}
